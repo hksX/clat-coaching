@@ -1,0 +1,175 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #FF7F50;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #FF6347;
+}
+
+/* Header */
+header {
+    background-color: #1D1D1D;
+    color: white;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar .logo a {
+    font-size: 24px;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    font-size: 16px;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+/* Hero Section with Parallax */
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+    position: relative;
+    background-attachment: fixed; /* Parallax effect */
+    background-size: cover;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+/* Key Features Section */
+.key-features {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.feature {
+    width: 200px;
+}
+
+.feature img {
+    width: 60px;
+    height: 60px;
+}
+
+.feature h3 {
+    margin: 10px 0;
+}
+
+/* CLAT Crash Course Section */
+.crash-course-banner {
+    background-color: #FF7F50;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.crash-course-banner p {
+    font-size: 1.2rem;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.testimonial-slider {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.testimonial {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+    width: 300px;
+}
+/* Hero Section with Parallax Effect */
+.hero {
+    background: url('https://thumbs.dreamstime.com/b/falling-drop-rain-blue-earth-image-water-splash-crown-shape-water-splash-crown-shape-falling-drop-earth-140453719.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+    position: relative;
+    background-attachment: fixed; /* Parallax effect */
+    background-size: cover;
+}
+
+
+/* Footer Section */
+footer {
+    background-color: #1D1D1D;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+    color: white;
+}
